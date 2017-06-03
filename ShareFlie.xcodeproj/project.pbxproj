@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69EA297DF776236ABE48B754 /* libPods-ShareFlie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FA02E110F3DE6C8E03E69E0 /* libPods-ShareFlie.a */; };
+		F8E4EC601EE156D1001F0B15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E4EC5F1EE156D1001F0B15 /* main.m */; };
+		F8E4EC631EE156D1001F0B15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E4EC621EE156D1001F0B15 /* AppDelegate.m */; };
+		F8E4EC661EE156D1001F0B15 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E4EC651EE156D1001F0B15 /* ViewController.m */; };
+		F8E4EC6B1EE156D1001F0B15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8E4EC6A1EE156D1001F0B15 /* Assets.xcassets */; };
+		F8E4EC6E1EE156D1001F0B15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8E4EC6C1EE156D1001F0B15 /* LaunchScreen.storyboard */; };
+		F8E4EC791EE156D2001F0B15 /* ShareFlieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E4EC781EE156D2001F0B15 /* ShareFlieTests.m */; };
+		F8E4EC841EE156D2001F0B15 /* ShareFlieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E4EC831EE156D2001F0B15 /* ShareFlieUITests.m */; };
+		F8E4EC931EE16286001F0B15 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8E4EC921EE16286001F0B15 /* AVKit.framework */; };
+		F8E4EC951EE1628E001F0B15 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8E4EC941EE1628E001F0B15 /* AVFoundation.framework */; };
+		F8E4EC991EE28C12001F0B15 /* YXCollectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E4EC971EE28C12001F0B15 /* YXCollectViewController.m */; };
+		F8E4EC9A1EE28C12001F0B15 /* YXCollectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8E4EC981EE28C12001F0B15 /* YXCollectViewController.xib */; };
+		F8E4EC9E1EE28F3B001F0B15 /* YXCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E4EC9C1EE28F3B001F0B15 /* YXCollectionViewCell.m */; };
+		F8E4EC9F1EE28F3B001F0B15 /* YXCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8E4EC9D1EE28F3B001F0B15 /* YXCollectionViewCell.xib */; };
+		F8E4ECA31EE2905B001F0B15 /* 视频.png in Resources */ = {isa = PBXBuildFile; fileRef = F8E4ECA01EE2905B001F0B15 /* 视频.png */; };
+		F8E4ECA41EE2905B001F0B15 /* 视频-2.png in Resources */ = {isa = PBXBuildFile; fileRef = F8E4ECA11EE2905B001F0B15 /* 视频-2.png */; };
+		F8E4ECA51EE2905C001F0B15 /* 图片.png in Resources */ = {isa = PBXBuildFile; fileRef = F8E4ECA21EE2905B001F0B15 /* 图片.png */; };
+		F8E4ECA71EE29296001F0B15 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8E4ECA61EE29296001F0B15 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8E4EC751EE156D2001F0B15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8E4EC531EE156D1001F0B15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8E4EC5A1EE156D1001F0B15;
+			remoteInfo = ShareFlie;
+		};
+		F8E4EC801EE156D2001F0B15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8E4EC531EE156D1001F0B15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8E4EC5A1EE156D1001F0B15;
+			remoteInfo = ShareFlie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FA02E110F3DE6C8E03E69E0 /* libPods-ShareFlie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShareFlie.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AFB1DCCD990DD15F13BC946 /* Pods-ShareFlie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareFlie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShareFlie/Pods-ShareFlie.debug.xcconfig"; sourceTree = "<group>"; };
+		906A32DE8BAC5DE6BD3D07D0 /* Pods-ShareFlie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareFlie.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShareFlie/Pods-ShareFlie.release.xcconfig"; sourceTree = "<group>"; };
+		F8E4EC5B1EE156D1001F0B15 /* ShareFlie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareFlie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8E4EC5F1EE156D1001F0B15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8E4EC611EE156D1001F0B15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F8E4EC621EE156D1001F0B15 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F8E4EC641EE156D1001F0B15 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F8E4EC651EE156D1001F0B15 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F8E4EC6A1EE156D1001F0B15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8E4EC6D1EE156D1001F0B15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F8E4EC6F1EE156D1001F0B15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8E4EC741EE156D2001F0B15 /* ShareFlieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareFlieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8E4EC781EE156D2001F0B15 /* ShareFlieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareFlieTests.m; sourceTree = "<group>"; };
+		F8E4EC7A1EE156D2001F0B15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8E4EC7F1EE156D2001F0B15 /* ShareFlieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareFlieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8E4EC831EE156D2001F0B15 /* ShareFlieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareFlieUITests.m; sourceTree = "<group>"; };
+		F8E4EC851EE156D2001F0B15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8E4EC921EE16286001F0B15 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		F8E4EC941EE1628E001F0B15 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F8E4EC961EE28C12001F0B15 /* YXCollectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXCollectViewController.h; sourceTree = "<group>"; };
+		F8E4EC971EE28C12001F0B15 /* YXCollectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXCollectViewController.m; sourceTree = "<group>"; };
+		F8E4EC981EE28C12001F0B15 /* YXCollectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YXCollectViewController.xib; sourceTree = "<group>"; };
+		F8E4EC9B1EE28F3B001F0B15 /* YXCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXCollectionViewCell.h; sourceTree = "<group>"; };
+		F8E4EC9C1EE28F3B001F0B15 /* YXCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXCollectionViewCell.m; sourceTree = "<group>"; };
+		F8E4EC9D1EE28F3B001F0B15 /* YXCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YXCollectionViewCell.xib; sourceTree = "<group>"; };
+		F8E4ECA01EE2905B001F0B15 /* 视频.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "视频.png"; sourceTree = "<group>"; };
+		F8E4ECA11EE2905B001F0B15 /* 视频-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "视频-2.png"; sourceTree = "<group>"; };
+		F8E4ECA21EE2905B001F0B15 /* 图片.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图片.png"; sourceTree = "<group>"; };
+		F8E4ECA61EE29296001F0B15 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8E4EC581EE156D1001F0B15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8E4EC951EE1628E001F0B15 /* AVFoundation.framework in Frameworks */,
+				F8E4EC931EE16286001F0B15 /* AVKit.framework in Frameworks */,
+				69EA297DF776236ABE48B754 /* libPods-ShareFlie.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8E4EC711EE156D2001F0B15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8E4EC7C1EE156D2001F0B15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC0959551CF7CEC27F488E7D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5AFB1DCCD990DD15F13BC946 /* Pods-ShareFlie.debug.xcconfig */,
+				906A32DE8BAC5DE6BD3D07D0 /* Pods-ShareFlie.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F8E4EC521EE156D1001F0B15 = {
+			isa = PBXGroup;
+			children = (
+				F8E4EC5D1EE156D1001F0B15 /* ShareFlie */,
+				F8E4EC771EE156D2001F0B15 /* ShareFlieTests */,
+				F8E4EC821EE156D2001F0B15 /* ShareFlieUITests */,
+				F8E4EC5C1EE156D1001F0B15 /* Products */,
+				F8E4EC911EE16286001F0B15 /* Frameworks */,
+				BC0959551CF7CEC27F488E7D /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		F8E4EC5C1EE156D1001F0B15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8E4EC5B1EE156D1001F0B15 /* ShareFlie.app */,
+				F8E4EC741EE156D2001F0B15 /* ShareFlieTests.xctest */,
+				F8E4EC7F1EE156D2001F0B15 /* ShareFlieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8E4EC5D1EE156D1001F0B15 /* ShareFlie */ = {
+			isa = PBXGroup;
+			children = (
+				F8E4ECA81EE2A161001F0B15 /* Third */,
+				F8E4ECA01EE2905B001F0B15 /* 视频.png */,
+				F8E4ECA11EE2905B001F0B15 /* 视频-2.png */,
+				F8E4ECA21EE2905B001F0B15 /* 图片.png */,
+				F8E4EC611EE156D1001F0B15 /* AppDelegate.h */,
+				F8E4EC621EE156D1001F0B15 /* AppDelegate.m */,
+				F8E4EC641EE156D1001F0B15 /* ViewController.h */,
+				F8E4EC651EE156D1001F0B15 /* ViewController.m */,
+				F8E4ECA61EE29296001F0B15 /* ViewController.xib */,
+				F8E4EC961EE28C12001F0B15 /* YXCollectViewController.h */,
+				F8E4EC971EE28C12001F0B15 /* YXCollectViewController.m */,
+				F8E4EC981EE28C12001F0B15 /* YXCollectViewController.xib */,
+				F8E4EC9B1EE28F3B001F0B15 /* YXCollectionViewCell.h */,
+				F8E4EC9C1EE28F3B001F0B15 /* YXCollectionViewCell.m */,
+				F8E4EC9D1EE28F3B001F0B15 /* YXCollectionViewCell.xib */,
+				F8E4EC6A1EE156D1001F0B15 /* Assets.xcassets */,
+				F8E4EC6C1EE156D1001F0B15 /* LaunchScreen.storyboard */,
+				F8E4EC6F1EE156D1001F0B15 /* Info.plist */,
+				F8E4EC5E1EE156D1001F0B15 /* Supporting Files */,
+			);
+			path = ShareFlie;
+			sourceTree = "<group>";
+		};
+		F8E4EC5E1EE156D1001F0B15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8E4EC5F1EE156D1001F0B15 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8E4EC771EE156D2001F0B15 /* ShareFlieTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8E4EC781EE156D2001F0B15 /* ShareFlieTests.m */,
+				F8E4EC7A1EE156D2001F0B15 /* Info.plist */,
+			);
+			path = ShareFlieTests;
+			sourceTree = "<group>";
+		};
+		F8E4EC821EE156D2001F0B15 /* ShareFlieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F8E4EC831EE156D2001F0B15 /* ShareFlieUITests.m */,
+				F8E4EC851EE156D2001F0B15 /* Info.plist */,
+			);
+			path = ShareFlieUITests;
+			sourceTree = "<group>";
+		};
+		F8E4EC911EE16286001F0B15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8E4EC941EE1628E001F0B15 /* AVFoundation.framework */,
+				F8E4EC921EE16286001F0B15 /* AVKit.framework */,
+				2FA02E110F3DE6C8E03E69E0 /* libPods-ShareFlie.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8E4ECA81EE2A161001F0B15 /* Third */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8E4EC5A1EE156D1001F0B15 /* ShareFlie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8E4EC881EE156D2001F0B15 /* Build configuration list for PBXNativeTarget "ShareFlie" */;
+			buildPhases = (
+				6A51200314FFBABDA73B3F5C /* [CP] Check Pods Manifest.lock */,
+				F8E4EC571EE156D1001F0B15 /* Sources */,
+				F8E4EC581EE156D1001F0B15 /* Frameworks */,
+				F8E4EC591EE156D1001F0B15 /* Resources */,
+				BE260B3B8285F67E35385554 /* [CP] Embed Pods Frameworks */,
+				A45A69C7D149F2A7A8AF662F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShareFlie;
+			productName = ShareFlie;
+			productReference = F8E4EC5B1EE156D1001F0B15 /* ShareFlie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8E4EC731EE156D2001F0B15 /* ShareFlieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8E4EC8B1EE156D2001F0B15 /* Build configuration list for PBXNativeTarget "ShareFlieTests" */;
+			buildPhases = (
+				F8E4EC701EE156D2001F0B15 /* Sources */,
+				F8E4EC711EE156D2001F0B15 /* Frameworks */,
+				F8E4EC721EE156D2001F0B15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8E4EC761EE156D2001F0B15 /* PBXTargetDependency */,
+			);
+			name = ShareFlieTests;
+			productName = ShareFlieTests;
+			productReference = F8E4EC741EE156D2001F0B15 /* ShareFlieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F8E4EC7E1EE156D2001F0B15 /* ShareFlieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8E4EC8E1EE156D2001F0B15 /* Build configuration list for PBXNativeTarget "ShareFlieUITests" */;
+			buildPhases = (
+				F8E4EC7B1EE156D2001F0B15 /* Sources */,
+				F8E4EC7C1EE156D2001F0B15 /* Frameworks */,
+				F8E4EC7D1EE156D2001F0B15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8E4EC811EE156D2001F0B15 /* PBXTargetDependency */,
+			);
+			name = ShareFlieUITests;
+			productName = ShareFlieUITests;
+			productReference = F8E4EC7F1EE156D2001F0B15 /* ShareFlieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8E4EC531EE156D1001F0B15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = kodbin;
+				TargetAttributes = {
+					F8E4EC5A1EE156D1001F0B15 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 5VRE8LH27Q;
+						ProvisioningStyle = Automatic;
+					};
+					F8E4EC731EE156D2001F0B15 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F8E4EC5A1EE156D1001F0B15;
+					};
+					F8E4EC7E1EE156D2001F0B15 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F8E4EC5A1EE156D1001F0B15;
+					};
+				};
+			};
+			buildConfigurationList = F8E4EC561EE156D1001F0B15 /* Build configuration list for PBXProject "ShareFlie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8E4EC521EE156D1001F0B15;
+			productRefGroup = F8E4EC5C1EE156D1001F0B15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8E4EC5A1EE156D1001F0B15 /* ShareFlie */,
+				F8E4EC731EE156D2001F0B15 /* ShareFlieTests */,
+				F8E4EC7E1EE156D2001F0B15 /* ShareFlieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8E4EC591EE156D1001F0B15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8E4EC6E1EE156D1001F0B15 /* LaunchScreen.storyboard in Resources */,
+				F8E4EC9F1EE28F3B001F0B15 /* YXCollectionViewCell.xib in Resources */,
+				F8E4ECA71EE29296001F0B15 /* ViewController.xib in Resources */,
+				F8E4EC6B1EE156D1001F0B15 /* Assets.xcassets in Resources */,
+				F8E4EC9A1EE28C12001F0B15 /* YXCollectViewController.xib in Resources */,
+				F8E4ECA41EE2905B001F0B15 /* 视频-2.png in Resources */,
+				F8E4ECA31EE2905B001F0B15 /* 视频.png in Resources */,
+				F8E4ECA51EE2905C001F0B15 /* 图片.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8E4EC721EE156D2001F0B15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8E4EC7D1EE156D2001F0B15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A51200314FFBABDA73B3F5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A45A69C7D149F2A7A8AF662F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShareFlie/Pods-ShareFlie-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE260B3B8285F67E35385554 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShareFlie/Pods-ShareFlie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8E4EC571EE156D1001F0B15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8E4EC661EE156D1001F0B15 /* ViewController.m in Sources */,
+				F8E4EC631EE156D1001F0B15 /* AppDelegate.m in Sources */,
+				F8E4EC9E1EE28F3B001F0B15 /* YXCollectionViewCell.m in Sources */,
+				F8E4EC991EE28C12001F0B15 /* YXCollectViewController.m in Sources */,
+				F8E4EC601EE156D1001F0B15 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8E4EC701EE156D2001F0B15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8E4EC791EE156D2001F0B15 /* ShareFlieTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8E4EC7B1EE156D2001F0B15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8E4EC841EE156D2001F0B15 /* ShareFlieUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8E4EC761EE156D2001F0B15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8E4EC5A1EE156D1001F0B15 /* ShareFlie */;
+			targetProxy = F8E4EC751EE156D2001F0B15 /* PBXContainerItemProxy */;
+		};
+		F8E4EC811EE156D2001F0B15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8E4EC5A1EE156D1001F0B15 /* ShareFlie */;
+			targetProxy = F8E4EC801EE156D2001F0B15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8E4EC6C1EE156D1001F0B15 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8E4EC6D1EE156D1001F0B15 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8E4EC861EE156D2001F0B15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8E4EC871EE156D2001F0B15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8E4EC891EE156D2001F0B15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AFB1DCCD990DD15F13BC946 /* Pods-ShareFlie.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5VRE8LH27Q;
+				INFOPLIST_FILE = ShareFlie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kodbin.ShareFlie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F8E4EC8A1EE156D2001F0B15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 906A32DE8BAC5DE6BD3D07D0 /* Pods-ShareFlie.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5VRE8LH27Q;
+				INFOPLIST_FILE = ShareFlie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kodbin.ShareFlie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F8E4EC8C1EE156D2001F0B15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShareFlieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kodbin.ShareFlieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareFlie.app/ShareFlie";
+			};
+			name = Debug;
+		};
+		F8E4EC8D1EE156D2001F0B15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShareFlieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kodbin.ShareFlieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareFlie.app/ShareFlie";
+			};
+			name = Release;
+		};
+		F8E4EC8F1EE156D2001F0B15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShareFlieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kodbin.ShareFlieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShareFlie;
+			};
+			name = Debug;
+		};
+		F8E4EC901EE156D2001F0B15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShareFlieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kodbin.ShareFlieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShareFlie;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8E4EC561EE156D1001F0B15 /* Build configuration list for PBXProject "ShareFlie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8E4EC861EE156D2001F0B15 /* Debug */,
+				F8E4EC871EE156D2001F0B15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8E4EC881EE156D2001F0B15 /* Build configuration list for PBXNativeTarget "ShareFlie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8E4EC891EE156D2001F0B15 /* Debug */,
+				F8E4EC8A1EE156D2001F0B15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8E4EC8B1EE156D2001F0B15 /* Build configuration list for PBXNativeTarget "ShareFlieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8E4EC8C1EE156D2001F0B15 /* Debug */,
+				F8E4EC8D1EE156D2001F0B15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8E4EC8E1EE156D2001F0B15 /* Build configuration list for PBXNativeTarget "ShareFlieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8E4EC8F1EE156D2001F0B15 /* Debug */,
+				F8E4EC901EE156D2001F0B15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8E4EC531EE156D1001F0B15 /* Project object */;
+}

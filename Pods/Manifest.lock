@@ -1,0 +1,15 @@
+PODS:
+  - HUPhotoBrowser (0.0.5)
+  - KRVideoPlayer (1.0.1)
+
+DEPENDENCIES:
+  - HUPhotoBrowser (~> 0.0.2)
+  - KRVideoPlayer
+
+SPEC CHECKSUMS:
+  HUPhotoBrowser: aebc4701b52985392b06100cfbf7ac961a347801
+  KRVideoPlayer: 08918da1b99cae35fd4c15b2ec2b49358d4c985f
+
+PODFILE CHECKSUM: 58a7e362dc5367d793793ae88882c7ca2546237e
+
+COCOAPODS: 1.0.1
