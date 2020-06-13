@@ -26,6 +26,8 @@
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
 
+    //hahahahhah 新加的东西
+    
     
     
     return YES;
