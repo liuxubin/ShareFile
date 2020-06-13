@@ -27,7 +27,7 @@
     [self.window makeKeyAndVisible];
 
     //hahahahhah 新加的东西
-    
+    //这个也是新加
     
     
     return YES;
